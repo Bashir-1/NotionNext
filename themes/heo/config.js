@@ -6,7 +6,7 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
     { title: '最厉害的GPT AI，超级牛', url: 'https://starshine.love/app/s/ai.html' },
-    { title: '精选音乐列表', url: '/article/music' }
+    { title: '精选音乐列表', url: 'https://blog.starshine.love/article/music' }
   ],
 
   // 英雄区(首页顶部大卡)
@@ -15,7 +15,7 @@ const CONFIG = {
   HERO_TITLE_3: 'STARSHINE.LOVE',
   HERO_TITLE_4: '音乐分享',
   HERO_TITLE_5: '精选音乐列表',
-  HERO_TITLE_LINK: '/article/music',
+  HERO_TITLE_LINK: 'https://blog.starshine.love/article/music',
 
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: '必看精选', url: '/tag/初中' },
