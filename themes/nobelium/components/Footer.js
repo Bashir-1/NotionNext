@@ -19,9 +19,12 @@ export const Footer = (props) => {
      <hr className="border-gray-200 dark:border-gray-600" />
      <div className="my-4 text-sm leading-6">
        <div className="flex align-baseline justify-between flex-wrap">
-         <p>
-           © {siteConfig('AUTHOR')} {copyrightDate}
+        <p>
+           <b>版权所有 © {copyrightDate} {BLOG.AUTHOR} </b>
          </p>
+           <p><a href='mailto:ncc-17039@foxmail.com' target="_blank">Mail</a> | <a href='https://weibo.com/u/7818171482' target="_blank">微博</a> | <a href='http://discord.com/' target="_blank">@David_Bashir</a> | <a href='https://music.163.com/#/user/home?id=1448752438' target="_blank">网易云</a> | <a href='https://twitter.com/CNwithZZR' target="_blank">X</a> | <a href='https://t.me/NCC17039' target="_blank">TG</a> | <a href='/rss/feed.xml' target="_blank">订阅</a></p>
+           <p>本站原创内容基于 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh' target="_blank">CC BY-NC-SA 4.0</a> 许可协议</p>
+           <p><a href='https://www.cloudflare.com/' target="_blank"><i class="fa-brands fa-cloudflare"></i> 提供云防护</a></p>
          <Vercel />
        </div>
      </div>
