@@ -5,8 +5,7 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: '最厉害的GPT AI，超级牛', url: 'https://starshine.love/app/s/ai.html' },
-    { title: '精选音乐列表', url: 'https://blog.starshine.love/article/music' }
+    { title: '最厉害的GPT AI，超级牛', url: 'https://starshine.love/app/s/ai' }
   ],
 
   // 英雄区(首页顶部大卡)
